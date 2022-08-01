@@ -1,0 +1,34 @@
+.advantage__title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #110303;
+    margin-bottom: 40px;
+}
+.advantage__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.advantage__item {
+
+}
+.advantage__item_stack {
+
+}
+.advantage__item_mockup {
+
+}
+.advantage__item_inclisive {
+
+}
+.advantage__item_adapt {
+
+}
+.advantage__item_clear {
+
+}
+.advantage__item_copyright {
+
+}
