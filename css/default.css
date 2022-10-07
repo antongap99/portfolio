@@ -62,14 +62,27 @@ section {
     .container {
         padding: 0 40px;
     }
+    .present {
+        padding-top: 70px;
+    }
 }
 @media (min-width: 992px) {
     .container {
-        padding: 0 40px 0 27px;
+        padding: 0 40px 0 342px;
     }
-.page__header {
-    position: fixed;
-    left: 0;
-    top: 0;
+    section {
+        padding: 65px 0;
+    }
+
+    .page__header {
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
 }
+@media (min-width: 1440px) {
+    section {
+        padding: 75px 0;
+    }
 }
+

@@ -15,7 +15,7 @@
     display: none;
     position: absolute;
     background-color: #A1B7C8;
-    top: 61px;
+    top: 74px;
     left: 0;
     right: 0;
     padding: 30px 15px;
@@ -23,14 +23,15 @@
 }
 
 .header__logo {
-    width: 180px;
+    width: 76px;
     height: 43px;
 }
 
 .header__contacts-burger {
+    display: block;
     width: 27px;
     height: 14px;
-    background-image: url("../img/menu.svg");
+    background: url("../img/menu.svg")   no-repeat ;
 }
 
 
@@ -65,6 +66,8 @@
     display: block;
     width: 26px;
     height: 26px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .contact__social-link-whatsup {
@@ -90,11 +93,15 @@
 
     .header__logo{
         Width: 180px;
-        height: 43px;
+        height: 65px;
     }
 
+    .header__contacts-burger {
+        width: 27px;
+        height: 14px;
+    }
     .header__contacts {
-        top: 101px;
+        top: 122px;
         padding: 40px;
     }
     .contacts__list {
@@ -111,7 +118,7 @@
     .header {
         height: 100%;
         padding: 50px 0;
-        width: 240px;
+        width: 23%;
     }
 
     .header__container{
@@ -127,6 +134,7 @@
         display: block;
         position: static;
         padding: 0;
+        min-width: 200px;
     }
     .contacts__list {
         flex-direction: column;
@@ -147,7 +155,7 @@
     .header {
         padding: 60px 0px;
         width: 355px;
-        left:  calc(50%-720px);
+        left:  calc(50% - 720px);
     }
 
 }

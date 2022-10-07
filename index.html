@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
     <link rel="stylesheet" href="./css/index.css">
+
+    <script defer src="./script/swiper-bundle.min.js"></script>
+    <script defer src="./script/index.js"></script>
 </head>
 <body class="page">
     <header class="page__header header">
@@ -53,14 +56,14 @@
     <main>
         <section class="present">
             <div class="container present__container">
-                <img src="./img/photo.jpg" alt="фото Антона Гапоненко" class="present__photo">
+                <img src="./img//portfolio2.png" alt="фото Антона Гапоненко" class="present__photo">
                 <div class="present__content">
                     <hgroup class="present__group-title">
                         <h1 class="present__title">Антон Гапоненко</h1>
                         <h2 class="present__subtitle">Web-разработчик</h2>
                     </hgroup>
 
-                    <p class="present__discription">Меня зовут Антон Гапоненко, я разработчик сайтов&nbsp; с опытом 1 год</p>
+                    <p class="present__discription">Меня зовут Антон Гапоненко, я разработчик сайтов&nbsp;с опытом 1&nbsp;год</p>
                 <button class="present__order-btn">Написать</button>
                 </div>
             </div>
@@ -81,81 +84,56 @@
         <section class="portfolio">
             <div class="container">
                 <h2 class="portfolio__title">Портфолио</h2>
-                    <div class="portfolio__slider">
-                        <ul class="portfolio__list">
-                            <li class="portfolio__item">
+                    <div class="portfolio__slider swiper">
+                        <ul class="portfolio__list swiper-wrapper">
+                            <li class="portfolio__item swiper-slide">
                                 <article class="card">
-                                    <img src="#" alt="" class="crad__picture">
+                                    <img src="./img/here.png" alt="" class="card__picture">
                                     <p class="card__data">
-                                        <span>Название работы</span>
-                                        <time class="card__date" datetime="2022">выполнена: май 2022 года</time>
+                                        <span class="card__name">Название работы</span>
+                                        <time class="card__date" datetime="2022"> май 2022 </time>
                                     </p>
                                 </article>
                             </li>
-                            <li class="portfolio__item">
+                            <li class="portfolio__item swiper-slide">
                                 <article class="card">
-                                    <img src="#" alt="" class="crad__picture">
+                                    <img src="./img/dom.jpg" alt="" class="card__picture">
                                     <p class="card__data">
-                                        <span>Название работы</span>
-                                        <time class="card__date" datetime="2022">выполнена: май 2022 года</time>
+                                        <span class="card__name">Название работы</span>
+                                        <time class="card__date" datetime="2022"> май 2022 </time>
                                     </p>
                                 </article>
                             </li>
-                            <li class="portfolio__item">
+                            <li class="portfolio__item swiper-slide">
                                 <article class="card">
-                                    <img src="#" alt="" class="crad__picture">
+                                    <img src="./img/Friendlyjpg.jpg" alt="" class="card__picture">
                                     <p class="card__data">
-                                        <span>Название работы</span>
-                                        <time class="card__date" datetime="2022">выполнена: май 2022 года</time>
+                                        <span class="card__name">Название работы</span>
+                                        <time class="card__date" datetime="2022"> май 2022 </time>
                                     </p>
                                 </article>
                             </li>
-                            <li class="portfolio__item">
+                            <li class="portfolio__item swiper-slide">
                                 <article class="card">
-                                    <img src="#" alt="" class="crad__picture">
+                                    <img src="./img/go.jpg" alt="" class="card__picture">
                                     <p class="card__data">
-                                        <span>Название работы</span>
-                                        <time class="card__date" datetime="2022">выполнена: май 2022 года</time>
+                                        <span class="card__name">Название работы</span>
+                                        <time class="card__date" datetime="2022"> май 2022 </time>
                                     </p>
                                 </article>
                             </li>
-                            <li class="portfolio__item">
+                            <li class="portfolio__item swiper-slide">
                                 <article class="card">
-                                    <img src="#" alt="" class="crad__picture">
+                                    <img src="./img/iphone.jpg" alt="" class="card__picture">
                                     <p class="card__data">
-                                        <span>Название работы</span>
-                                        <time class="card__date" datetime="2022">выполнена: май 2022 года</time>
-                                    </p>
-                                </article>
-                            </li>
-                            <li class="portfolio__item">
-                                <article class="card">
-                                    <img src="#" alt="" class="crad__picture">
-                                    <p class="card__data">
-                                        <span>Название работы</span>
-                                        <time class="card__date" datetime="2022">выполнена: май 2022 года</time>
-                                    </p>
-                                </article>
-                            </li>
-                            <li class="portfolio__item">
-                                <article class="card">
-                                    <img src="#" alt="" class="crad__picture">
-                                    <p class="card__data">
-                                        <span>Название работы</span>
-                                        <time class="card__date" datetime="2022">выполнена: май 2022 года</time>
-                                    </p>
-                                </article>
-                            </li>
-                            <li class="portfolio__item">
-                                <article class="card">
-                                    <img src="#" alt="" class="crad__picture">
-                                    <p class="card__data">
-                                        <span>Название работы</span>
-                                        <time class="card__date" datetime="2022">выполнена: май 2022 года</time>
+                                        <span class="card__name">Название работы</span>
+                                        <time class="card__date" datetime="2022"> май 2022 </time>
                                     </p>
                                 </article>
                             </li>
                         </ul>
+                        <button class="portfolio__arrow portfolio__arrow_left"></button>
+                        <button class="portfolio__arrow portfolio__arrow_right"></button>
                     </div>
             </div>
         </section>
