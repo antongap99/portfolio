@@ -97,6 +97,9 @@
 }
 
 @media (min-width: 992px) {
+    .present__container {
+        gap: 50px;
+    }
     .present{
         position: relative;
     }
@@ -132,7 +135,9 @@
         font-size: 18px;
         margin-bottom: 80px;
     }
-
+    .present__container {
+        gap: 50px;
+    }
 }
 
 @media (min-width: 2200px) {

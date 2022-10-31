@@ -8,14 +8,14 @@ new Swiper('.swiper', {
         480: {
             grid: {
                 fill: 'row',
-                rows: 2,
+                rows: 1,
               },
             },
           // when window width is >= 768px
         768: {
             grid: {
                 fill: 'row',
-                rows: 2,
+                rows: 1,
               },
              slidesPerView: 2,
             },
