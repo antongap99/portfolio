@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/index.css">
 
     <script defer src="./script/swiper-bundle.min.js"></script>
-    <script defer src="./script/index.js"></script>
+    <script defer type="module" src="./script/index.js"></script>
 </head>
 <body class="page">
     <header class="page__header header">
@@ -145,7 +145,16 @@
                         <button class="portfolio__arrow portfolio__arrow_right"></button>
                     </div>
             </div>
+            <div class="modal modal1">
+                <form class="modal__main">
+                  <h2 class="modal__title">Напишите о себе</h2>
+                  <textarea class="modal__container">
 
+                  </textarea>
+                  <button class="modal__btn">Отправить</button>
+                  <button class="modal__close">&#10006;</button>
+                </form>
+              </div>
         </section>
     </main>
 </body>
