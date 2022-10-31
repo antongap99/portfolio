@@ -36,11 +36,12 @@
     font-size: 20px;
 }
 .card__picture {
+    display: block;
     width: 155px;
     height: 92px;
-    background-image: url('../img/Mac.jpg');
+    background-image: url('../img/macBook.svg');
     background-size: cover;     /*mac  - слишком большой размер*/
-    padding: 4px 14px 8px 16px;
+    padding: 3px 17px 12px 17px;
     margin-bottom: 30px;
 }
 
@@ -141,7 +142,8 @@ transform: translateY(-50%);
     .card__picture{
         width: 213px;
         height: 126px;
-        padding: 4px 17px 10px 20px;
+        padding: 4px 23px 15px 24px;
+        background-image: url('../img/macBook.svg');
     }
     .portfolio__slider {
         max-width: 850px;

@@ -10,6 +10,7 @@ new Swiper('.swiper', {
                 fill: 'row',
                 rows: 1,
               },
+              slidesPerView: 1,
             },
           // when window width is >= 768px
         768: {
