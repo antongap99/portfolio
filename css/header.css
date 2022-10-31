@@ -73,8 +73,8 @@
 .contact__social-link-whatsup {
     background-image: url("../img/whats.svg")
 }
-.contact__social-link-inst {
-    background-image: url("../img/inst.svg");
+.contact__social-link-git {
+    background-image: url("../img/GitHubLogo.svg");
 }
 
 .contact__social-link-teleg {
