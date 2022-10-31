@@ -141,6 +141,7 @@ transform: translateY(-50%);
     .card__picture{
         width: 213px;
         height: 126px;
+        padding: 4px 17px 10px 20px;
     }
     .portfolio__slider {
         max-width: 850px;
