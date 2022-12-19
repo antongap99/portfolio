@@ -12,7 +12,7 @@
   .modal__main {
     position: relative;
     max-width: 700px;
-    background-color: #fff;
+    background-color: #A1B7C8;
     margin: auto;
     color: #000;
     border-radius: 16px;
@@ -22,6 +22,15 @@
     flex-direction: column;
   }
 
+  .form__wrapper{
+    display: flex;
+    justify-content: center;
+  }
+
+  .form__list{
+    justify-content: center;
+    gap: 30px;
+  }
   .modal__title {
     font-size: 40px;
     margin-bottom: 30px;
