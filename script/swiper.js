@@ -1,6 +1,6 @@
 const swiperController = () => {
     new Swiper('.swiper', {
-      // loop: true,
+      loop: true,
       navigation: {
           nextEl: '.portfolio__arrow_right',
           prevEl: '.portfolio__arrow_left',
@@ -13,7 +13,6 @@ const swiperController = () => {
                 },
                 slidesPerView: 1,
               },
-            // when window width is >= 768px
           768: {
               grid: {
                   fill: 'row',
