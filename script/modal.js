@@ -11,7 +11,7 @@ const modalController = ({modal, btnOpen, btnClose, time = 300}) => {
 
     const closeModal = event => {
       const target = event.target;
-
+        event.preventDefault();
       if (
         target === modalElem ||
         (btnClose && target.closest(btnClose)) ||
