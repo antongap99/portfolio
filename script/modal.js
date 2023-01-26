@@ -42,8 +42,3 @@ const modalController = ({modal, btnOpen, btnClose, time = 300}) => {
   };
 
 export default modalController;
-//   modalController({
-//     modal: '.modal2',
-//     btnOpen: '.section__button2',
-//     btnClose: '.modal__close'
-//   });

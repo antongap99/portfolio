@@ -6,7 +6,6 @@ const init = () => {
     modalController({modal: '.modal1',
        btnOpen: '.present__order-btn',
        btnClose: '.modal__close',});
-
 }
 
 init()
