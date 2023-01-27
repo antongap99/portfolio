@@ -5,18 +5,18 @@ export const burgerController = () => {
 
 
     headerContactsBurger.addEventListener('click', e => {
-        if (!headerContacts.classList.contains('header__contacts_active')) {
-            headerContacts.classList.add('header__contacts_active')
+        if (headerContacts.classList.contains('no-visible')) {
+            headerContacts.classList.remove('no-visible');
         } else {
-            headerContacts.classList.remove('header__contacts_active')
+            headerContacts.classList.add('no-visible');
         }
     })
 
     document.addEventListener('click', e => {
         if (!e.target.closest('.header') &&
-            headerContacts.classList.contains('header__contacts_active')
+            !headerContacts.classList.contains('no-visible')
         ) {
-            headerContacts.classList.remove('header__contacts_active');
+            headerContacts.classList.add('no-visible');
         }
     })
 }

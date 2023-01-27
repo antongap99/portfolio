@@ -11,8 +11,9 @@
     align-items: center;
 }
 
+
+
 .header__contacts {
-    display: none;
     position: absolute;
     background-color: #A1B7C8;
     top: 74px;
@@ -20,11 +21,17 @@
     right: 0;
     padding: 30px 15px;
     color: #fff;
+    transition: 0.5s all;
 }
 
-.header__contacts_active {
-    display: block;
+
+
+.no-visible {
+    visibility: hidden;
+    opacity: 0;
 }
+
+
 
 .header__logo {
     width: 76px;
@@ -35,7 +42,7 @@
     display: block;
     width: 27px;
     height: 14px;
-    background: url("../img/menu.svg")   no-repeat ;
+    background: url("../img/menu.svg") no-repeat;
 }
 
 
@@ -47,7 +54,7 @@
     margin-bottom: 7px;
 }
 
-.contacts__head_social{
+.contacts__head_social {
     margin-bottom: 12px;
 }
 
@@ -55,18 +62,22 @@
     font-size: 16px;
     line-height: 22px;
 }
+
 .contacts__item {
     margin-bottom: 50px;
 }
-.contacts__item:last-child{
+
+.contacts__item:last-child {
     margin-bottom: 0;
 }
+
 .contact__social-list {
     display: flex;
     gap: 20px;
 
 }
-.contact__social-link{
+
+.contact__social-link {
     display: block;
     width: 26px;
     height: 26px;
@@ -77,6 +88,7 @@
 .contact__social-link-whatsup {
     background-image: url("../img/whats.svg")
 }
+
 .contact__social-link-git {
     background-image: url("../img/GitHubLogo.svg");
 }
@@ -95,7 +107,7 @@
         padding: 28px 0;
     }
 
-    .header__logo{
+    .header__logo {
         Width: 180px;
         height: 65px;
     }
@@ -104,14 +116,17 @@
         width: 27px;
         height: 14px;
     }
+
     .header__contacts {
         top: 122px;
         padding: 40px;
     }
+
     .contacts__list {
         display: flex;
         justify-content: space-between;
     }
+
     .contacts__item {
         margin-bottom: 0;
     }
@@ -125,47 +140,52 @@
         width: 23%;
     }
 
-    .header__container{
+    .header__container {
         flex-direction: column;
         height: 100%;
         align-items: flex-end;
         padding: 20px 0;
     }
-    .header__contacts-burger{
+
+    .header__contacts-burger {
         display: none;
     }
-    .header__contacts{
+
+    .header__contacts {
         display: block;
         position: static;
         padding: 0;
         min-width: 200px;
     }
+
     .contacts__list {
         flex-direction: column;
     }
+
     .contacts__item {
         margin-bottom: 50px;
     }
-    .contacts__item:last-child{
+
+    .contacts__item:last-child {
         margin-bottom: 0;
     }
 }
 
 @media (min-width: 1440px) {
-    .page{
-        background-image: linear-gradient(to right, #A1B7C8 24.5%, transparent 24.5%) ;
+    .page {
+        background-image: linear-gradient(to right, #A1B7C8 24.5%, transparent 24.5%);
     }
 
     .header {
         padding: 60px 0px;
         width: 355px;
-        left:  calc(50% - 720px);
+        left: calc(50% - 720px);
     }
 
 }
 
 @media (min-width: 2700px) {
-    .page{
-        background-image: linear-gradient(to right, #A1B7C8 30%, transparent 30%) ;
+    .page {
+        background-image: linear-gradient(to right, #A1B7C8 30%, transparent 30%);
     }
 }
