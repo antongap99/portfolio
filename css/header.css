@@ -22,6 +22,10 @@
     color: #fff;
 }
 
+.header__contacts_active {
+    display: block;
+}
+
 .header__logo {
     width: 76px;
     height: 43px;
