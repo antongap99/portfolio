@@ -11,13 +11,13 @@ const modalController = ({modal, btnOpen, btnClose, time = 300}) => {
 
     const closeModal = event => {
       const target = event.target;
-        event.preventDefault();
+  
       if (
         target === modalElem ||
         (btnClose && target.closest(btnClose)) ||
         event.code === 'Escape'
         ) {
-
+          event.preventDefault();
         modalElem.style.opacity = 0;
 
         setTimeout(() => {
